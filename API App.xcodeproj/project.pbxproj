@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14CC747821002B7C00DB9647 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC747721002B7C00DB9647 /* TableViewController.swift */; };
+		14CC747A21002BF000DB9647 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC747921002BF000DB9647 /* SwiftyJSON.swift */; };
 		14E65A07210020EE00A740F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E65A06210020EE00A740F7 /* AppDelegate.swift */; };
 		14E65A09210020EE00A740F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E65A08210020EE00A740F7 /* ViewController.swift */; };
 		14E65A0C210020EE00A740F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E65A0A210020EE00A740F7 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14CC747721002B7C00DB9647 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		14CC747921002BF000DB9647 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		14E65A03210020EE00A740F7 /* API App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E65A06210020EE00A740F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14E65A08210020EE00A740F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +61,11 @@
 				14E65A06210020EE00A740F7 /* AppDelegate.swift */,
 				14E65A08210020EE00A740F7 /* ViewController.swift */,
 				14E65A0A210020EE00A740F7 /* Main.storyboard */,
+				14CC747721002B7C00DB9647 /* TableViewController.swift */,
 				14E65A0D210020F000A740F7 /* Assets.xcassets */,
 				14E65A0F210020F000A740F7 /* LaunchScreen.storyboard */,
 				14E65A12210020F000A740F7 /* Info.plist */,
+				14CC747921002BF000DB9647 /* SwiftyJSON.swift */,
 			);
 			path = "API App";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14E65A09210020EE00A740F7 /* ViewController.swift in Sources */,
+				14CC747821002B7C00DB9647 /* TableViewController.swift in Sources */,
 				14E65A07210020EE00A740F7 /* AppDelegate.swift in Sources */,
+				14CC747A21002BF000DB9647 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
